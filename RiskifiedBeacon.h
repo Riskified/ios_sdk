@@ -21,11 +21,10 @@
 /**
  Entry point, should be called at the end of applicationDidFinishLaunching:
  @param shopName The Riskified account name (shop.com)
- @param term Regular expression to limit reporting to a specific domain
  @param token The initial session's unique identifier
- @param debugInfo Controls debug logging to NSLog
+ @param debug Controls debug logging to NSLog
  */
-+ (void)startBeacon:(NSString *)shopName sessionToken:(NSString *)token debugInfo:(BOOL)enabled;
++ (void)startBeacon:(NSString *)shopName sessionToken:(NSString *)token debugInfo:(BOOL)debug;
 
 /**
  Updates that the user has begun a new browsing session
