@@ -39,10 +39,10 @@
     [RiskifiedBeacon startBeacon:@"myshop.com" sessionToken:token debugInfo:true];
 ```
 
-   * `startBeacon()` arguments:
+   * `startBeacon:` arguments:
      * `shopName` - Name of your Riskified account.
-     * `sessionTokeb` - Unique identifier of the user's current session in the app. The same identifier is passed by your backend (in the `cart_token` field) to Riskified.
-     * `debugInfo` - Boolean parameter that indicates whether or not to display the beacon logs.
+     * `sessionToken` - Unique String identifier of the user's current session in the app. The same identifier is passed by your backend (in the `cart_token` field) to Riskified.
+     * `debugInfo` - Boolean parameter that enables beacon logging for debugging.
 
 
 ##### 3. When the user's session changes, update the token by calling:
@@ -86,7 +86,7 @@ If your project is built in Swift, you'll need to follow these additional steps:
 ##### Q: When and how should `logRequest:` be used?
  * Call this method every time a user performs a meaningful action in the app (for example: view product page, search, add to cart).
  * Riskified uses this data for behavioral modeling and analysis, so please take care to only call `logRequest:` in response to an actual user action.
- * The single URL argument represents the action taken, this can usually be achieved by passing the same URL used in the backend call for the action (`https://api.myshop.com/search?term=shoes`).
+ * The single URL argument represents the action taken, this can usually be achieved by passing the same URL used in the backend call for the action (ie., `https://api.myshop.com/search?term=shoes`).
  
 ##### Q: When should `logsensitiveDeviceInfo` be called? 
   * Ideally once per session, depending on the use case. For example - before attempting to process a checkout, or before the first login attempt.
