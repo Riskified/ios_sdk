@@ -21,13 +21,13 @@
 
  * Run `$ pod install` in your project directory.
  * Open `App.xcworkspace` and build.
- 
+
 #### Manually:
 
  * Download and extract the latest release from [Github](https://github.com/Riskified/ios_sdk/releases/latest).
  * Copy/Drag `libriskifiedbeacon.a` and `RiskifiedBeacon.h` into your XCode project.
  * Ensure that the `libriskifiedbeacon.a` library exists in the project settings under Build Phases → Link Binary with Libraries.
- 
+
 ---
 
 ### Implementation:
@@ -36,7 +36,7 @@
 
 ##### 2. Start the beacon at the end of `applicationDidFinishLaunching`:
 ```objective-c
-    [RiskifiedBeacon startBeacon:@"myshop.com" sessionToken:token debugInfo:true];
+[RiskifiedBeacon startBeacon:@"myshop.com" sessionToken:token debugInfo:true];
 ```
 
    * `startBeacon:` arguments:
@@ -72,7 +72,7 @@ If your project is built in Swift, you'll need to follow these additional steps:
 
  1. Add a new Bridging Header file if it doesn't already exists (ex. Bridging-Header.h).
  1. Ensure the file is listed correctly under Objective-C Bridging Header in the project's Build Settings.
- 1. Add `#import "RiskifiedBeacon.h"` to the bridging header file. 
+ 1. Add `#import "RiskifiedBeacon.h"` to the bridging header file.
  1. Continue as usual using Swift syntax: `RiskifiedBeacon.startBeacon("myshop.com", sessionToken:token)`
 
 ---
@@ -80,14 +80,14 @@ If your project is built in Swift, you'll need to follow these additional steps:
 ### FAQs
 
 ##### Q: Does the SDK require any additional permissions from the user?
- * The SDK does **not** require or prompt for any user permissions. 
+ * The SDK does **not** require or prompt for any user permissions.
  * The SDK utilizes certain permissions if the host app previously requested them.
 
 ##### Q: When and how should `logRequest:` be used?
  * Call this method every time a user performs a meaningful action in the app (for example: view product page, search, add to cart).
  * Riskified uses this data for behavioral modeling and analysis, so please take care to only call `logRequest:` in response to an actual user action.
  * The single URL argument represents the action taken, this can usually be achieved by passing the same URL used in the backend call for the action (ie., `https://api.myshop.com/search?term=shoes`).
- 
-##### Q: When should `logsensitiveDeviceInfo` be called? 
+
+##### Q: When should `logsensitiveDeviceInfo` be called?
   * Ideally once per session, depending on the use case. For example - before attempting to process a checkout, or before the first login attempt.
-  * Multiple invocations of this function in a single session will not generate an error, but have the wasteful effect of generating identical payloads for analysis. 
+  * Multiple invocations of this function in a single session will not generate an error, but have the wasteful effect of generating identical payloads for analysis.
