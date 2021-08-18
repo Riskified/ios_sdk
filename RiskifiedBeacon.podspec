@@ -8,9 +8,11 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Riskified/ios_sdk.git', :tag => s.version.to_s }
+    s.source            = { :git => 'https://github.com/mooseriskified/ios_sdk.git', :tag => s.version.to_s }
 
     s.source_files = '*.h'
     s.vendored_library = 'libriskifiedbeacon.a'
     s.vendored_frameworks = 'RiskifiedBeacon.xcframework'
 end
+
+
