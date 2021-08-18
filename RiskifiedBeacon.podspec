@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'RiskifiedBeacon'
-    s.version           = '1.2.7'
+    s.version           = '1.2.8'
     s.summary           = 'Riskified Beacon for iOS'
     s.homepage          = 'https://www.riskified.com/'
 
@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
 
     s.source_files = '*.h'
     s.vendored_library = 'libriskifiedbeacon.a'
+    s.vendored_frameworks = 'RiskifiedBeacon.xcframework'
 end
