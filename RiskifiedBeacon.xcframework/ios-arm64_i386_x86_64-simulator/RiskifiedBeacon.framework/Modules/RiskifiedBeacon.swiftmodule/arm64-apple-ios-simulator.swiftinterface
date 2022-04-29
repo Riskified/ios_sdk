@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name RiskifiedBeacon
+import CoreGraphics
+import Foundation
+@_exported import RiskifiedBeacon
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+@_inheritsConvenienceInitializers @objc open class DecoSdk : ObjectiveC.NSObject {
+  @objc public func offerDeco(config: DecoConfig)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class DecoConfig : ObjectiveC.NSObject {
+  public init(shopUrl: Swift.String, sessionId: Swift.String, decoSuccessHandler: @escaping () -> Swift.Void, loadCompleteHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: DecoEnv, decoInlineButtonParent: UIKit.UIView, decoInlineButtonUiFont: UIKit.UIFont = UIFont(name: "Helvetica", size: 20)!, isDebug: Swift.Bool = false)
+  @objc deinit
+}
+@objc public enum DecoEnv : Swift.Int {
+  case production
+  case sandbox
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct ButtonConfig : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc open class DecoLogger : ObjectiveC.NSObject {
+  @objc public init(isDebug: Swift.Bool = false)
+  @objc public func info(message: Swift.String)
+  @objc deinit
+}
+extension DecoEnv : Swift.Equatable {}
+extension DecoEnv : Swift.Hashable {}
+extension DecoEnv : Swift.RawRepresentable {}
