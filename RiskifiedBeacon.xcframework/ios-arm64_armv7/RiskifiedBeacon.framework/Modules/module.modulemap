@@ -1,6 +1,0 @@
-framework module RiskifiedBeacon {
-  umbrella header "RiskifiedBeacon.h"
-
-  export *
-  module * { export * }
-}

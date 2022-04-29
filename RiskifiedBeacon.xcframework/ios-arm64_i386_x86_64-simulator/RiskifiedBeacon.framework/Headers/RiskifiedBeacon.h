@@ -15,7 +15,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+@class DecoConfig;
 @interface RiskifiedBeacon : NSObject
 
 /**
@@ -47,5 +47,11 @@
    Get the unique Riskified Identifier.
  */
 + (NSString *)rCookie;
+
+/*
+ Deco functions
+ */
++ (void)offerDeco:(DecoConfig *)decoConfig;
+
 
 @end
