@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RiskifiedBeacon
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RiskifiedBeacon
 import CoreGraphics
 import Foundation
 @_exported import RiskifiedBeacon
@@ -17,12 +17,12 @@ public struct Event : Swift.Decodable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class DecoSdk : ObjectiveC.NSObject {
-  @objc public func offerDeco(config: DecoConfig)
+  @objc public func offerDeco(config: RiskifiedBeacon.DecoConfig)
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class DecoConfig : ObjectiveC.NSObject {
-  public init(shopUrl: Swift.String, sessionId: Swift.String, decoSuccessHandler: @escaping () -> Swift.Void, loadCompleteHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: DecoEnv, decoInlineButtonParent: UIKit.UIView, decoInlineButtonUiFont: UIKit.UIFont = UIFont(name: "Helvetica", size: 20)!, isDebug: Swift.Bool = false)
+  public init(shopUrl: Swift.String, sessionId: Swift.String, decoSuccessHandler: @escaping () -> Swift.Void, loadCompleteHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: RiskifiedBeacon.DecoEnv, decoInlineButtonParent: UIKit.UIView, decoInlineButtonUiFont: UIKit.UIFont = UIFont(name: "Helvetica", size: 20)!, isDebug: Swift.Bool = false)
   @objc deinit
 }
 @objc public enum DecoEnv : Swift.Int {
@@ -38,12 +38,12 @@ public struct ButtonConfig : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc open class MfaSDK : ObjectiveC.NSObject {
-  @objc public func offerMFA(config: MfaConfig)
+  @objc public func offerMFA(config: RiskifiedBeacon.MfaConfig)
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class MfaConfig : ObjectiveC.NSObject {
-  public init(token: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: Env, isDebug: Swift.Bool)
+  public init(token: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: RiskifiedBeacon.Env, isDebug: Swift.Bool)
   @objc deinit
 }
 @objc public enum Env : Swift.Int {
@@ -60,9 +60,9 @@ public struct ButtonConfig : Swift.Decodable {
   @objc public func info(message: Swift.String)
   @objc deinit
 }
-extension DecoEnv : Swift.Equatable {}
-extension DecoEnv : Swift.Hashable {}
-extension DecoEnv : Swift.RawRepresentable {}
-extension Env : Swift.Equatable {}
-extension Env : Swift.Hashable {}
-extension Env : Swift.RawRepresentable {}
+extension RiskifiedBeacon.DecoEnv : Swift.Equatable {}
+extension RiskifiedBeacon.DecoEnv : Swift.Hashable {}
+extension RiskifiedBeacon.DecoEnv : Swift.RawRepresentable {}
+extension RiskifiedBeacon.Env : Swift.Equatable {}
+extension RiskifiedBeacon.Env : Swift.Hashable {}
+extension RiskifiedBeacon.Env : Swift.RawRepresentable {}
