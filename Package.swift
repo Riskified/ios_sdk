@@ -22,8 +22,6 @@ let package = Package(
         .binaryTarget(
             name: "RiskifiedBeacon",
             path: "RiskifiedBeacon.xcframework"
-            //url: "https://github.com/Riskified/ios_sdk/raw/a8a4a4875e436026eb4d0473dc488d1579eb52e6/RiskifiedBeacon.xcframework.zip",
-            //checksum: "5e0cb1b671b7847db1d852192a3587d12acc35884681be908eac100dc149af8f"
 
         )
     ]
