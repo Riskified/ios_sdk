@@ -6,6 +6,6 @@ framework module RiskifiedBeacon {
 }
 
 module RiskifiedBeacon.Swift {
-    header "RiskifiedBeacon-Swift.h"
-    requires objc
+  header "RiskifiedBeacon-Swift.h"
+  requires objc
 }
