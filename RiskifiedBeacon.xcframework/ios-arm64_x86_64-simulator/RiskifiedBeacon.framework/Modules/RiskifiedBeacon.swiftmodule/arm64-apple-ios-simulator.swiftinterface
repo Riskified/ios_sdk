@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RiskifiedBeacon
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreGraphics
@@ -11,7 +11,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 public struct Event : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc open class MfaLogger : ObjectiveC.NSObject {
   @objc public init(isDebug: Swift.Bool = false)
@@ -37,7 +37,7 @@ public struct Event : Swift.Decodable {
   }
 }
 public struct ButtonConfig : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc open class MfaSDK : ObjectiveC.NSObject {
   @objc public func offerMFA(config: MfaConfig)
