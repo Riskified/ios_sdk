@@ -11,6 +11,4 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'https://github.com/Riskified/ios_sdk.git', :tag => s.version.to_s }
 
     s.vendored_frameworks = 'RiskifiedBeacon.xcframework'
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 end
