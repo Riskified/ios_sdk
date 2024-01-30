@@ -14,11 +14,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
-
-@class DecoConfig;
-@class MfaConfig;
 
 @interface RiskifiedBeacon : NSObject
 
@@ -52,14 +48,10 @@
  */
 + (NSString *)rCookie;
 
-/**
- Deco function - see IOS documenation
+/*
+ Deco functions
  */
-+ (void)offerDeco:(DecoConfig *)decoConfig;
 
-/**
- MFA function - see IOS documenation
- */
-+ (void)OfferMFA:(MfaConfig *)mfaConfig;
+
 
 @end

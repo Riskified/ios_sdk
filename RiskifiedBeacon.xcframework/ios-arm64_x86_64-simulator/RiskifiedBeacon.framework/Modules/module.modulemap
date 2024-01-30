@@ -1,11 +1,6 @@
 framework module RiskifiedBeacon {
   umbrella header "RiskifiedBeacon.h"
-
   export *
-  module * { export * }
-}
 
-module RiskifiedBeacon.Swift {
-  header "RiskifiedBeacon-Swift.h"
-  requires objc
+  module * { export * }
 }
