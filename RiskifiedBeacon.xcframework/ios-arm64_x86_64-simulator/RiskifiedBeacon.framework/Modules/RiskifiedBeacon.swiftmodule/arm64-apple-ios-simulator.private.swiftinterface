@@ -1,70 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RiskifiedBeacon
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name RiskifiedBeacon
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import CoreGraphics
-import Foundation
 @_exported import RiskifiedBeacon
 import Swift
-import UIKit
-import WebKit
 import _Concurrency
 import _StringProcessing
-public struct Event : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-@objc open class MfaLogger : ObjectiveC.NSObject {
-  @objc public init(isDebug: Swift.Bool = false)
-  @objc public func info(message: Swift.String)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc open class DecoSdk : ObjectiveC.NSObject {
-  @objc public func offerDeco(config: DecoConfig)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class DecoConfig : ObjectiveC.NSObject {
-  public init(shopUrl: Swift.String, sessionId: Swift.String, decoSuccessHandler: @escaping () -> Swift.Void, loadCompleteHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: DecoEnv, decoInlineButtonParent: UIKit.UIView, decoInlineButtonUiFont: UIKit.UIFont = UIFont(name: "Helvetica", size: 20)!, isDebug: Swift.Bool = false)
-  @objc deinit
-}
-@objc public enum DecoEnv : Swift.Int {
-  case production
-  case sandbox
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public struct ButtonConfig : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-@_inheritsConvenienceInitializers @objc open class MfaSDK : ObjectiveC.NSObject {
-  @objc public func offerMFA(config: MfaConfig)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class MfaConfig : ObjectiveC.NSObject {
-  public init(token: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: Env, isDebug: Swift.Bool)
-  @objc deinit
-}
-@objc public enum Env : Swift.Int {
-  case production
-  case sandbox
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc open class DecoLogger : ObjectiveC.NSObject {
-  @objc public init(isDebug: Swift.Bool = false)
-  @objc public func info(message: Swift.String)
-  @objc deinit
-}
-extension DecoEnv : Swift.Equatable {}
-extension DecoEnv : Swift.Hashable {}
-extension DecoEnv : Swift.RawRepresentable {}
-extension Env : Swift.Equatable {}
-extension Env : Swift.Hashable {}
-extension Env : Swift.RawRepresentable {}
+import _SwiftConcurrencyShims
