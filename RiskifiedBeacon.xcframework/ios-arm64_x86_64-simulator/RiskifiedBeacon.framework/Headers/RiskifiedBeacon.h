@@ -14,7 +14,10 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+
+@class OtpConfig;
 
 @interface RiskifiedBeacon : NSObject
 
@@ -48,10 +51,9 @@
  */
 + (NSString *)rCookie;
 
-/*
- Deco functions
+/**
+ OTP function - see IOS documenation
  */
-
-
++ (void)OfferOTP:(OtpConfig *)config;
 
 @end

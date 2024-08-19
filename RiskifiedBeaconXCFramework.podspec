@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'RiskifiedBeaconXCFramework'
-    s.version           = '1.4.3'
+    s.version           = '1.5.0'
     s.summary           = 'Riskified Beacon for iOS'
     s.homepage          = 'https://www.riskified.com/'
 
