@@ -4,3 +4,8 @@ framework module RiskifiedBeacon {
 
   module * { export * }
 }
+
+module RiskifiedBeacon.Swift {
+  header "RiskifiedBeacon-Swift.h"
+  requires objc
+}

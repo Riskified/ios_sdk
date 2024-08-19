@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name RiskifiedBeacon
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name RiskifiedBeacon
 import CoreGraphics
 import Foundation
 @_exported import RiskifiedBeacon
@@ -19,12 +19,12 @@ public struct OtpEvent : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc open class OtpSdk : ObjectiveC.NSObject {
-  @objc public func offerOtp(config: OtpConfig)
+  @objc public func offerOtp(config: RiskifiedBeacon.OtpConfig)
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class OtpConfig : ObjectiveC.NSObject {
-  public init(widgetToken: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, onTimeoutHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: OtpEnv, isDebug: Swift.Bool)
+  public init(widgetToken: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, onTimeoutHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: RiskifiedBeacon.OtpEnv, isDebug: Swift.Bool)
   @objc deinit
 }
 @objc public enum OtpEnv : Swift.Int {
@@ -37,6 +37,6 @@ public struct OtpEvent : Swift.Decodable {
     get
   }
 }
-extension OtpEnv : Swift.Equatable {}
-extension OtpEnv : Swift.Hashable {}
-extension OtpEnv : Swift.RawRepresentable {}
+extension RiskifiedBeacon.OtpEnv : Swift.Equatable {}
+extension RiskifiedBeacon.OtpEnv : Swift.Hashable {}
+extension RiskifiedBeacon.OtpEnv : Swift.RawRepresentable {}
