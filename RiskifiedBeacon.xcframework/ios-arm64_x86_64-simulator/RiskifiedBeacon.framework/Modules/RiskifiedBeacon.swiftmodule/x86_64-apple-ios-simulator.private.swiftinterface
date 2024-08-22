@@ -24,7 +24,7 @@ public struct OtpEvent : Swift.Decodable {
   @objc deinit
 }
 @objc public class OtpConfig : ObjectiveC.NSObject {
-  public init(widgetToken: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, onTimeoutHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: OtpEnv, isDebug: Swift.Bool)
+  @objc public init(widgetToken: Swift.String, verificationHandler: @escaping (Swift.String) -> Swift.Void, widgetClosedHandler: @escaping () -> Swift.Void, onTimeoutHandler: @escaping () -> Swift.Void, parent: UIKit.UIViewController, env: OtpEnv, isDebug: Swift.Bool)
   @objc deinit
 }
 @objc public enum OtpEnv : Swift.Int {
