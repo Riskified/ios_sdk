@@ -3027,11 +3027,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15RiskifiedBeacon9OtpConfigC11widgetToken19verificationHandler0e6ClosedH009onTimeoutH06parent3env7isDebugACSS_ySScyycyycSo16UIViewControllerCAA0C3EnvOSbtcfc",
+            "usr": "c:@M@RiskifiedBeacon@objc(cs)OtpConfig(im)initWithWidgetToken:verificationHandler:widgetClosedHandler:onTimeoutHandler:parent:env:isDebug:",
             "mangledName": "$s15RiskifiedBeacon9OtpConfigC11widgetToken19verificationHandler0e6ClosedH009onTimeoutH06parent3env7isDebugACSS_ySScyycyycSo16UIViewControllerCAA0C3EnvOSbtcfc",
             "moduleName": "RiskifiedBeacon",
+            "objc_name": "initWithWidgetToken:verificationHandler:widgetClosedHandler:onTimeoutHandler:parent:env:isDebug:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -3649,28 +3651,28 @@
     {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2665,
+      "offset": 2671,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2682,
+      "offset": 2688,
       "length": 7,
       "value": "2"
     },
     {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2665,
+      "offset": 2671,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2682,
+      "offset": 2688,
       "length": 7,
       "value": "2"
     }

@@ -298,9 +298,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class UIViewController;
+enum OtpEnv : NSInteger;
 
 SWIFT_CLASS("_TtC15RiskifiedBeacon9OtpConfig")
 @interface OtpConfig : NSObject
+- (nonnull instancetype)initWithWidgetToken:(NSString * _Nonnull)widgetToken verificationHandler:(void (^ _Nonnull)(NSString * _Nonnull))verificationHandler widgetClosedHandler:(void (^ _Nonnull)(void))widgetClosedHandler onTimeoutHandler:(void (^ _Nonnull)(void))onTimeoutHandler parent:(UIViewController * _Nonnull)parent env:(enum OtpEnv)env isDebug:(BOOL)isDebug OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -311,7 +315,6 @@ typedef SWIFT_ENUM(NSInteger, OtpEnv, open) {
   OtpEnvStaging = 2,
 };
 
-@class NSString;
 
 SWIFT_CLASS("_TtC15RiskifiedBeacon9OtpLogger")
 @interface OtpLogger : NSObject
@@ -636,9 +639,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class UIViewController;
+enum OtpEnv : NSInteger;
 
 SWIFT_CLASS("_TtC15RiskifiedBeacon9OtpConfig")
 @interface OtpConfig : NSObject
+- (nonnull instancetype)initWithWidgetToken:(NSString * _Nonnull)widgetToken verificationHandler:(void (^ _Nonnull)(NSString * _Nonnull))verificationHandler widgetClosedHandler:(void (^ _Nonnull)(void))widgetClosedHandler onTimeoutHandler:(void (^ _Nonnull)(void))onTimeoutHandler parent:(UIViewController * _Nonnull)parent env:(enum OtpEnv)env isDebug:(BOOL)isDebug OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -649,7 +656,6 @@ typedef SWIFT_ENUM(NSInteger, OtpEnv, open) {
   OtpEnvStaging = 2,
 };
 
-@class NSString;
 
 SWIFT_CLASS("_TtC15RiskifiedBeacon9OtpLogger")
 @interface OtpLogger : NSObject
