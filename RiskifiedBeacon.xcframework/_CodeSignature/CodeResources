@@ -6,11 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		b/lQFcKX7bV6CnSwteNW0PpN7q8=
-		</data>
-		<key>ios-arm64/.DS_Store</key>
-		<data>
-		7y2MCGjH6QA7+V7/Wq95F07K1pc=
+		9y9TbPfyqIXNyGcPk10SFik3CGo=
 		</data>
 		<key>ios-arm64/RiskifiedBeacon.framework/Headers/RiskifiedBeacon-Swift.h</key>
 		<data>
@@ -62,15 +58,7 @@
 		</data>
 		<key>ios-arm64/RiskifiedBeacon.framework/RiskifiedBeacon</key>
 		<data>
-		4ee/NS+vatt1KARn6k5jzqrwo/0=
-		</data>
-		<key>ios-arm64/RiskifiedBeacon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		rLhzioRchapTOE7AbW0d/hOocCM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/.DS_Store</key>
-		<data>
-		7y2MCGjH6QA7+V7/Wq95F07K1pc=
+		hZTj86WXd2fyq01a7eKkXdqylEg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RiskifiedBeacon.framework/Headers/RiskifiedBeacon-Swift.h</key>
 		<data>
@@ -150,11 +138,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/RiskifiedBeacon.framework/RiskifiedBeacon</key>
 		<data>
-		dEXvCwfKUiHw7LrMMQSSpGg/sos=
+		MYlTSWH1w4Sd1xJw3kOl07/qync=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RiskifiedBeacon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ezsecomktIgyYydMFHTmC1YL8FQ=
+		hUOkMMlgcsHVXeUOHcSCSK7Pg5s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -295,22 +283,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ee/NS+vatt1KARn6k5jzqrwo/0=
+			hZTj86WXd2fyq01a7eKkXdqylEg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JoWGg2UB35Y9704grISS56kmJ35Y1qddv/2ZXVgelZQ=
-			</data>
-		</dict>
-		<key>ios-arm64/RiskifiedBeacon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rLhzioRchapTOE7AbW0d/hOocCM=
-			</data>
-			<key>hash2</key>
-			<data>
-			4c8MuFV3Zi1P/eg7liLwTkjoz4hX5vxEkL9kAK/933U=
+			mENUXXK3P7FzLXue5/1CZ12gwrGyknxI23/m3KOrF3c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RiskifiedBeacon.framework/Headers/RiskifiedBeacon-Swift.h</key>
@@ -526,22 +503,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dEXvCwfKUiHw7LrMMQSSpGg/sos=
+			MYlTSWH1w4Sd1xJw3kOl07/qync=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lwXXxceNdg2LMq/aRBCWyjiGvk2+iApMd8L7XiHqTs=
+			MJYRgM+7ZvOLH8yDUII8fRQLVovjcT59nR87nhTkW40=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RiskifiedBeacon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ezsecomktIgyYydMFHTmC1YL8FQ=
+			hUOkMMlgcsHVXeUOHcSCSK7Pg5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			vzo+17wqoA9nt+UgjtawNhY79BwgonoNdVZYyUKYdao=
+			NlGNRF6guhz6dNFUxLHQYbufS2fPHKd550khF8BlLKQ=
 			</data>
 		</dict>
 	</dict>
