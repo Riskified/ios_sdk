@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RiskifiedBeacon",
+    "printedName": "RiskifiedBeacon",
     "children": [
       {
         "kind": "Import",
@@ -162,6 +162,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -187,6 +201,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -249,7 +270,23 @@
         "declKind": "Protocol",
         "usr": "s:15RiskifiedBeacon25WebViewOTPWrapperProtocolP",
         "mangledName": "$s15RiskifiedBeacon25WebViewOTPWrapperProtocolP",
-        "moduleName": "RiskifiedBeacon"
+        "moduleName": "RiskifiedBeacon",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -312,6 +349,20 @@
         "moduleName": "RiskifiedBeacon",
         "isOpen": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "WebViewOTPWrapperProtocol",
@@ -440,6 +491,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -508,7 +573,23 @@
         "declKind": "Protocol",
         "usr": "s:15RiskifiedBeacon17OtpWidgetProtocolP",
         "mangledName": "$s15RiskifiedBeacon17OtpWidgetProtocolP",
-        "moduleName": "RiskifiedBeacon"
+        "moduleName": "RiskifiedBeacon",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -588,7 +669,23 @@
         "declKind": "Protocol",
         "usr": "s:15RiskifiedBeacon19OtpDelegateProtocolP",
         "mangledName": "$s15RiskifiedBeacon19OtpDelegateProtocolP",
-        "moduleName": "RiskifiedBeacon"
+        "moduleName": "RiskifiedBeacon",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -828,6 +925,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "OtpWidgetProtocol",
             "printedName": "OtpWidgetProtocol",
             "usr": "s:15RiskifiedBeacon17OtpWidgetProtocolP",
@@ -983,6 +1094,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1073,6 +1198,8 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1102,6 +1229,10 @@
             "usr": "s:15RiskifiedBeacon24WebViewMessageOTPHandlerC8delegateAcA19OtpDelegateProtocol_p_tcfc",
             "mangledName": "$s15RiskifiedBeacon24WebViewMessageOTPHandlerC8delegateAcA19OtpDelegateProtocol_p_tcfc",
             "moduleName": "RiskifiedBeacon",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -1134,7 +1265,9 @@
             "isOpen": true,
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
-              "ObjC"
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1160,6 +1293,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -1171,6 +1306,8 @@
         "moduleName": "RiskifiedBeacon",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1178,6 +1315,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1226,6 +1377,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1430,6 +1588,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1470,6 +1642,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -1656,6 +1835,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1751,7 +1944,23 @@
         "declKind": "Protocol",
         "usr": "s:15RiskifiedBeacon19OtpRendererProtocolP",
         "mangledName": "$s15RiskifiedBeacon19OtpRendererProtocolP",
-        "moduleName": "RiskifiedBeacon"
+        "moduleName": "RiskifiedBeacon",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1777,6 +1986,8 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1803,6 +2014,8 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1829,6 +2042,8 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1863,6 +2078,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1896,6 +2113,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1936,6 +2155,10 @@
             "usr": "s:15RiskifiedBeacon18OtpWebViewRendererC5token10urlCreator03webE7WrapperACSS_AA0de3UrlI11OTPProtocol_pAA0dE18OTPWrapperProtocol_ptcfc",
             "mangledName": "$s15RiskifiedBeacon18OtpWebViewRendererC5token10urlCreator03webE7WrapperACSS_AA0de3UrlI11OTPProtocol_pAA0dE18OTPWrapperProtocol_ptcfc",
             "moduleName": "RiskifiedBeacon",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -1966,6 +2189,10 @@
             "mangledName": "$s15RiskifiedBeacon18OtpWebViewRendererC06renderC006parentE011otpDelegateySo6UIViewC_AA0cJ8Protocol_ptKF",
             "moduleName": "RiskifiedBeacon",
             "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1985,6 +2212,10 @@
             "mangledName": "$s15RiskifiedBeacon18OtpWebViewRendererC4stopyyF",
             "moduleName": "RiskifiedBeacon",
             "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2009,6 +2240,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -2020,6 +2253,8 @@
         "moduleName": "RiskifiedBeacon",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -2033,6 +2268,20 @@
             "printedName": "OtpRendererProtocol",
             "usr": "s:15RiskifiedBeacon19OtpRendererProtocolP",
             "mangledName": "$s15RiskifiedBeacon19OtpRendererProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2082,6 +2331,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2129,6 +2385,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2182,6 +2439,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2263,6 +2521,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2304,6 +2563,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -2316,6 +2576,7 @@
         "moduleName": "RiskifiedBeacon",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -2327,6 +2588,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2485,6 +2760,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3080,6 +3369,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3342,6 +3645,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3426,7 +3743,23 @@
         "declKind": "Protocol",
         "usr": "s:15RiskifiedBeacon28WebViewUrlCreatorOTPProtocolP",
         "mangledName": "$s15RiskifiedBeacon28WebViewUrlCreatorOTPProtocolP",
-        "moduleName": "RiskifiedBeacon"
+        "moduleName": "RiskifiedBeacon",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3518,6 +3851,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "WebViewUrlCreatorOTPProtocol",
             "printedName": "WebViewUrlCreatorOTPProtocol",
             "usr": "s:15RiskifiedBeacon28WebViewUrlCreatorOTPProtocolP",
@@ -3572,41 +3919,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 180,
-      "length": 9,
-      "value": "\"RiskifiedBeacon.OtpLogger\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/WebViewMessageOTPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 24,
-      "value": "\"RiskifiedBeacon.WebViewMessageOTPHandler\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/WebViewMessageOTPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1664,
-      "length": 18,
-      "value": "\"mfa-flow-success\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/WebViewMessageOTPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1709,
-      "length": 18,
-      "value": "\"mfa-widget-close\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/WebViewMessageOTPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1752,
-      "length": 18,
-      "value": "\"mfa-flow-timeout\""
-    },
-    {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/WebViewMessageOTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1664,
@@ -3635,32 +3947,11 @@
       "value": "\"scriptHandler\""
     },
     {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/webview\/OtpWebViewRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 350,
-      "length": 18,
-      "value": "\"RiskifiedBeacon.OtpWebViewRenderer\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
-      "kind": "StringLiteral",
-      "offset": 1741,
-      "length": 9,
-      "value": "\"RiskifiedBeacon.OtpConfig\""
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2671,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2688,
-      "length": 7,
-      "value": "2"
+      "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/bekimsinanovic\/Documents\/GitHub\/ios_beacon\/OtpSdk\/OtpSdk.swift",
