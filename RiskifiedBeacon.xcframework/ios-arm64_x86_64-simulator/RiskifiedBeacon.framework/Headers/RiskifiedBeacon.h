@@ -47,9 +47,14 @@
 + (void)logSensitiveDeviceInfo;
 
 /**
-   Get the unique Riskified Identifier.
+Get the unique Riskified Identifier.
  */
 + (NSString *)rCookie;
+
+/**
+Clear the state of the beacon.
+ */
++ (void)stopBeacon;
 
 /**
  OTP function - see IOS documenation
