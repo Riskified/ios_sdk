@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RiskifiedBeacon-Swift.h</key>
 		<data>
-		YYRQ/b5VQck5+UdwbNiGAyvYjXc=
+		hFR5dnGE2skXWh7qgKEGWCP4eBg=
 		</data>
 		<key>Headers/RiskifiedBeacon.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		boDCa0NJjvLj9YURXRnSLMD3ghA=
+		MmMAKbdj6YIXs2nDbODvf/8mthg=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		oX38CV3gtUw5/XJNdloHKQfFYFg=
+		AKJVfAITrnnfGK6Gq8lJTsPivDM=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		n9l0QB6brooZFONFrcStXzMKABA=
+		gtlHI/rlTron7IDc4W3KiX43G58=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z3vqtwDlna9Fc0WBD8v2ndo9wrQ=
+		I5u74VzCSoS52D0WcKyrGWakoPc=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BMttPoIqslI6bIjLvzR/VUw0+1E=
+		L4oQE7+JN8aCd/NYCKlomQTAwU0=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BcaWcfQNiAwtY2sbcK3A8ZNGmds=
+		w+toMfxhon5JeJU0+DahMpnjF7k=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BMttPoIqslI6bIjLvzR/VUw0+1E=
+		L4oQE7+JN8aCd/NYCKlomQTAwU0=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2MhjdS/rVHB/CfVPI8h2/FrCoZU=
+		WFCYXSzXIhmFKS7x8+pWNDYfZgA=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z3vqtwDlna9Fc0WBD8v2ndo9wrQ=
+		I5u74VzCSoS52D0WcKyrGWakoPc=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0l30wswIKjNKL8JxIE8QEBhZbkc=
+		vG5EGBPfK9ig5ZrOOGEAGf+s/9w=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nVrIkpSBMsMtvIVbE0ZVYQ6KlSs=
+		PV9FHbXg9UwgP6YKFCpdTpQO2wQ=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0l30wswIKjNKL8JxIE8QEBhZbkc=
+		vG5EGBPfK9ig5ZrOOGEAGf+s/9w=
 		</data>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GpZlmkSqW6JBRIBUNEG7B+KXHVA=
+		PDYRC1TbD4BP3unwqB1zQrpBjxQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DmHEx3jGwfcjdtBiu945Xmy7cm9mKKNla59XoCKcFc=
+			sfpeNhS+Jev+fXaF6o1aNJn1w4Wt3iutkAQdRlS7nRQ=
 			</data>
 		</dict>
 		<key>Headers/RiskifiedBeacon.h</key>
@@ -93,84 +93,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fjNHGwqpSRzxasJQ3keVNEx7zFaQWUbQLbcqEuTwbt0=
+			4KnL1lYujT/8085HEetjYsMAtNbYEt3mXlFp/L+hmKA=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NRziSRskS/i+RMAJVj2tBDl+3ZYIAS6FLK07RdIXlRU=
+			EGGHztb5JAdSLJZZ6oNpvUufnBYt5KYFSkVFvU8V0o0=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HC3Ep8R6XlEOwj1pn4C+h4FuV3jePhhLcwLrP0DIYtQ=
+			izaCv4NWXgqYKl1paYdzGdMX8sZCg33xJfHyLm/qH+U=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZIEeEHs0+6XYwgbO+4NwRjEAUqvM0gvCU7DHdcvb88=
+			fB6zqN2LXKXSBNu3+4N489y/DJSyBlaUSdJwWBIHKrA=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQ0tKrFJHGaGH99lw5PM4iF9r9+1UDfmAHZeA5Ygh2k=
+			E83gxgRZGsHY7rEe2qp7e2lKr0mHTsCLYy5Xda0BrTM=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZIEeEHs0+6XYwgbO+4NwRjEAUqvM0gvCU7DHdcvb88=
+			fB6zqN2LXKXSBNu3+4N489y/DJSyBlaUSdJwWBIHKrA=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			utwvxGlTL6QD+HNHmtbMPxfzdP94G77Brob+mcMzBHA=
+			uMr0XZkJ2mDw/wcmjipbp5MHvrxBfJGANYnnAczxBJw=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HC3Ep8R6XlEOwj1pn4C+h4FuV3jePhhLcwLrP0DIYtQ=
+			izaCv4NWXgqYKl1paYdzGdMX8sZCg33xJfHyLm/qH+U=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRt8tw4kZPGHZyJI+HxefKPHegp6Or7pV29nq5h3C0c=
+			1PDr4M1+UNMMcQ7x0N21dRaCja3o715DiE3EgwV3n1o=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lOGz1+JT0ipbro5ZwTiAgqgReNmyVaeQSmXww3WjOJs=
+			EDaGZQDu0CDDRKM2rBR7JE03Tr7VFxSeQEF/O/SMclI=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRt8tw4kZPGHZyJI+HxefKPHegp6Or7pV29nq5h3C0c=
+			1PDr4M1+UNMMcQ7x0N21dRaCja3o715DiE3EgwV3n1o=
 			</data>
 		</dict>
 		<key>Modules/RiskifiedBeacon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			00LGQOo+pub/AbrdR8+gyHUF062oUvHdcZ/cCVk7o40=
+			JwyDO82LXWYxRddFljlorbD02roZtmyZ/ShuTdwk0xo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
